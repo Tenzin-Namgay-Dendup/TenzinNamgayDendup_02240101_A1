@@ -63,6 +63,7 @@ def Count_word(TextFile_url): # fetch the text from the url
 def main():
     while True:
         print("\nMenu:")
+        print("select a function (1-7)")
         print("1. Sum of prime numbers")
         print("2. Length converter") 
         print("3. Count consonants")
@@ -130,7 +131,7 @@ def main():
         choice = input("do you want to continue your programm (yes/no) : ")
         if choice != 'yes': # != it's mean it does not agree
             print("THANK YOU! ")
-        break
+            break
             
 
 if __name__ == "__main__":

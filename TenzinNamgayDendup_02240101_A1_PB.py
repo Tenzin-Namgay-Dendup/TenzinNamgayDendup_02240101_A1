@@ -74,7 +74,7 @@ def main():
         print("\nMenu:")
         print("select a function (1-3)")
         print("1. Guess number game")
-        print("2. Rock Paper Scissors game with computure ")
+        print("2. Rock Paper Scissors game with robot ")
         print("3. Do you want to exit")
     
         
@@ -94,12 +94,9 @@ def main():
         else : 
             print("invalid")
         choice = input("Do you want to continue playing (yes/no) : ")
-        if choice != 'yes': # != it's mean it does not agree
-         print("THANK YOU! ")
-        break
-
-       
-           
+        if choice != 'yes': 
+            print("THANK YOU! ")
+            break
         
 
 if __name__ == "__main__":
